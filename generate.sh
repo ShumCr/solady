@@ -38,7 +38,7 @@ fi
 
 # ---------- loop ----------
 for i in $(seq 1 "$ITERATIONS"); do
-  BRANCH="feature/eth-contract-${i}"
+  BRANCH="feature/eth-contract-2-${i}"
   CONTRACT_DIR="contracts"
   CONTRACT_FILE="${CONTRACT_DIR}/SimpleStorage_${i}.sol"
 
