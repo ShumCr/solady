@@ -37,7 +37,7 @@ import {UUPSUpgradeable} from "../utils/UUPSUpgradeable.sol";
 /// - Please refer to the official [ERC6551](https://github.com/erc6551/reference) reference
 ///   for latest updates on the ERC6551 standard, as well as canonical registry information.
 
-/// 1234
+/// 12345
 abstract contract ERC6551 is UUPSUpgradeable, Receiver, ERC1271 {
     /*´:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•.°+.*•´.*:*/
     /*                          STRUCTS                           */
