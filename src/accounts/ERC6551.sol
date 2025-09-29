@@ -36,6 +36,8 @@ import {UUPSUpgradeable} from "../utils/UUPSUpgradeable.sol";
 ///   user operation validation functionality (and use ERC6551's execution functionality).
 /// - Please refer to the official [ERC6551](https://github.com/erc6551/reference) reference
 ///   for latest updates on the ERC6551 standard, as well as canonical registry information.
+
+/// 1
 abstract contract ERC6551 is UUPSUpgradeable, Receiver, ERC1271 {
     /*´:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•.°+.*•´.*:*/
     /*                          STRUCTS                           */
