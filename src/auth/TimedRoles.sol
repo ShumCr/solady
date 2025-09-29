@@ -30,7 +30,7 @@ pragma solidity ^0.8.4;
 /// Names are deliberately prefixed with "Timed", so that this contract
 /// can be used in conjunction with EnumerableRoles without collisions.
 // 1234567890
-// 12
+// 123
 abstract contract TimedRoles {
     /*´:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•.°+.*•´.*:*/
     /*                           EVENTS                           */
