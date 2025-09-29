@@ -38,9 +38,9 @@ fi
 
 # ---------- loop ----------
 for i in $(seq 1 "$ITERATIONS"); do
-  BRANCH="feature/eth-contract-2-${i}"
+  BRANCH="feature/eth-contract-3-${i}"
   CONTRACT_DIR="contracts"
-  CONTRACT_FILE="${CONTRACT_DIR}/SimpleStorage_${i}.sol"
+  CONTRACT_FILE="${CONTRACT_DIR}/SimpleStorages_${i}.sol"
 
   echo
   echo "=== Iteration $i: branch $BRANCH -> create $CONTRACT_FILE ==="
