@@ -39,7 +39,7 @@ import {UUPSUpgradeable} from "../utils/UUPSUpgradeable.sol";
 
 /// 1234567890
 /// 1234567890
-/// 12
+/// 123
 abstract contract ERC6551 is UUPSUpgradeable, Receiver, ERC1271 {
     /*´:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•.°+.*•´.*:*/
     /*                          STRUCTS                           */
