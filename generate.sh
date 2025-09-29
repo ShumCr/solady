@@ -89,14 +89,14 @@ EOF
   fi
 
   # If COMMIT_DATE set, set GIT_AUTHOR_DATE and GIT_COMMITTER_DATE
-  if [[ -n "$COMMIT_DATE" ]]; then
-    export GIT_AUTHOR_DATE="$COMMIT_DATE"
-    export GIT_COMMITTER_DATE="$COMMIT_DATE"
-    echo "Using commit date: $COMMIT_DATE"
-  else
+#  if [[ -n "$COMMIT_DATE" ]]; then
+#    export GIT_AUTHOR_DATE="$COMMIT_DATE"
+#    export GIT_COMMITTER_DATE="$COMMIT_DATE"
+#    echo "Using commit date: $COMMIT_DATE"
+#  else
     unset GIT_AUTHOR_DATE || true
     unset GIT_COMMITTER_DATE || true
-  fi
+#  fi
 
   # Perform commit
   if [[ -n "$AUTHOR_FLAG" ]]; then
