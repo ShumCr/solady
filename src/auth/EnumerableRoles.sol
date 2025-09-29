@@ -23,6 +23,8 @@ pragma solidity ^0.8.4;
 ///
 /// This implementation is compatible with any Ownable.
 /// This implementation is NOT compatible with OwnableRoles.
+
+// 1 
 abstract contract EnumerableRoles {
     /*´:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•.°+.*•´.*:*/
     /*                           EVENTS                           */
